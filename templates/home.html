@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Bosh sahifa{% endblock title %}
+
+{% block content %}
+    <br/>
+    <span class="border border-secondary"></span>
+    <div class="jumbotron">
+    <h1 class="display-4">Assalomu aleykum!</h1>
+    <p class="lead">Sevdiyor Ergashevning shaxsiy blogiga xush kelibsiz!</p>
+    <hr class="my-4">
+    <p class="lead">
+        <a href="{% url 'article_list' %}"class="btn btn-outline-dark" >Postlarni ko'rish</a>
+    </p>
+  </div>
+
+{% endblock content %}
